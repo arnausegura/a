@@ -1,0 +1,137 @@
+body{
+    background-color: azure;
+}
+
+#contenedor {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: table;
+}
+
+#tituloOpcion {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 100px;
+}
+
+.opcion {
+    word-wrap: break-word;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    float: top;
+    background-color: #95DDFF;
+    width: 80%;
+    min-width: 300px;
+}
+
+#contenido{
+    display: table;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    float: top;
+    background-color: #95DDFF;
+    width: 100%;
+    min-width: 400px;
+    max-width: 2000px;
+}
+
+button{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+divTableRow button {
+    margin-left: 0px;
+}
+
+.opcion input{
+    text-decoration: none;
+    background-color: azure;
+    border-radius: 6px;
+    border: 2px solid #1883ba;
+    text-align: center;
+}
+
+.opcion select{
+    text-decoration: none;
+    background-color: azure;
+    border-radius: 6px;
+    border: 2px solid #1883ba;
+    text-align: center;
+}
+
+.opcion textarea{
+    text-decoration: none;
+    background-color: azure;
+    border-radius: 6px;
+    border: 2px solid #1883ba;
+    text-align: center;
+}
+
+.ui-autocomplete {
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 20px;
+}
+
+.divTableBody {
+    margin: auto;
+    display: table-row-group;
+    text-align: justify;
+}
+
+.divTableRow {
+    display: table-row;
+    margin-bottom: 20px;
+}
+
+.divTableRow img {
+    height: 40px;
+}
+
+.divTableCell{
+    word-break: break-word;
+    display: table-cell;
+    padding-left: 3px;
+}
+
+.divTableCellPetit{
+    word-break: normal;
+    display: table-cell;
+    padding-left: 3px;
+    text-align: center;
+}
+
+.bordes{
+    border-bottom: 1px solid azure;
+    border-right: 1px solid azure;
+}
+
+.menu{
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-bottom: 1px solid azure;
+}
+
+a, a:visited {
+    /*text-shadow: -0.2px -0.2px 0.1px #000, 0.2px 0.2px 0.1px #000, -0.2px 0.2px 0.1px #000, 0.2px -0.2px 0.1px #000;*/
+    color: darkblue;
+    text-decoration: none;
+}

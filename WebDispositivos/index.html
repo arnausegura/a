@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrar Registros</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="script/jquery.md5.js"></script><!-- Estos scrips estan en nuestro servidor -->
+    <script src="script/index.js"></script>
+</head>
+
+<body>
+<div id="main">
+<div id="contenedor">
+    <h3 id="tituloOpcion">Login</h3>
+    <!--<div><button type="button" onclick="cargarDispositivos()">Recargar</button></div>-->
+    <div id="contenido">
+        <div class="opcion">
+            <form id="form-login">
+                <div><b>Usuario:</b> <input type="text" name="usuario" size="31" maxlength="50"></div>
+                <div><b>Contraseña: </b><input type="password" name="password" size="27" maxlength="50"></div>
+                <div><button type="button" onclick="loginTecnico()">Login</button></div>
+            </form>
+        </div>
+    </div>
+</div>
+<div id="mensajes">
+
+</div>
+</div>
+</body>
+
+</html>
